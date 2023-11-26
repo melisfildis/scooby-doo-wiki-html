@@ -1,0 +1,81 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:mediumpurple ;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: forestgreen;
+    background-color:bisque;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred;
+}
+table{
+    width: 100%;
+}
+table,tr,th,td{
+    border: 5px solid lightsalmon;
+    border-collapse: collapse;
+}
+#ide tr:nth-child(even) {background-color: lightgreen;}
+#ide tr:nth-child(odd) {background-color:lightpink;}
+
+#inn tr:nth-child(even) {background-color: lightskyblue;}
+#inn tr:nth-child(odd) {background-color:lightgoldenrodyellow;}
+p1{
+    color:palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.class{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:cornflowerblue;
+    background-color: beige;
+}
+img{
+    width: 100px;
+    height: 200px;
+}
+
+div{
+    text-align: left;
+    margin-left: 1%;
+    border: 3px solid orange ;
+    background-color: aliceblue;
+    border-collapse: separate ;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+.left{
+    float:right;
+    padding:0 10px 10px 0;
+}
+.mystery{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid;
+}
